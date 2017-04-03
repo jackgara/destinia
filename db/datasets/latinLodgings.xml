@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<lodgings>
+
+<lodging>
+    <lodging_type>Hotel</lodging_type>
+    <name>Azul</name>
+    <stars>3</stars>
+    <room_type>Simple</room_type>
+    <apartments>NULL</apartments>
+    <people>NULL</people>
+    <city>Barcelona</city>
+    <province>Catalunya</province>
+</lodging>
+
+<lodging>
+<lodging_type>Hotel</lodging_type>
+<name>Mediterraneo</name>
+<stars>5</stars>
+<room_type>Doble con Vista</room_type>
+<apartments>NULL</apartments>
+<people>NULL</people>
+<city>Mojacar</city>
+<province>Almeria</province>
+</lodging>
+
+<lodging>
+<lodging_type>Apartamento</lodging_type>
+<name>Torres Blancas</name>
+<stars></stars>
+<room_type></room_type>
+<apartments>15</apartments>
+<people>6</people>
+<city>SanLucar</city>
+<province>Cádiz</province>
+</lodging>
+
+<lodging>
+<lodging_type>Apartamento</lodging_type>
+<name>Beach</name>
+<stars></stars>
+<room_type></room_type>
+<apartments>7</apartments>
+<people>4</people>
+<city>Málaga</city>
+<province>Málaga</province>
+</lodging>
+
+</lodgings>

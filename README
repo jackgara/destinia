@@ -1,0 +1,36 @@
+DESTINIA
+========
+
+
+CONSIDERACIONES
+===============
+*He desarrollado en entorno XAMPP Windows.
+*La base de datos esta dividida en 3 tablas, cada una representa un alfabeto Latin, Arabic y Cyrillic.
+*Mantuve los campos ENUM e INT en Latin por simplicidad, pero Nombre, Ciudad y Provincia estarian traducidos.
+*He desarrollado la busqueda incluyendo Latin, Arabic y Cyrillic Alphabets.(otros mas podrian agregarse)
+*Asegurarse que toda la configuracion PHP,Mysql,Apache y Console este en UTF-8.
+
+DIRECTORIOS
+===========
+* data_access/   #Contiene libreria propia OO de acceso a DB
+* db/datasets    #Contiene Datasets.xml para ser parseados y construir populateDB.sql
+* db/            #Contiene .sql para crear y popular DB
+* utils/         #Minima libreria StdIO
+
+
+CREATE & POPULATE DB
+====================
+* Parse Datasets -> run xmlParser.php va a crear populateDB.sql
+* Create y Populate DB -> run destiniaDB.sql y luego populateDB.sql
+
+RUN A SEARCH
+============
+* php main.php
+
+TODO
+====
++Quedan por implementar algunas validaciones del input, manejo de Excepciones y Unit Testing(:( idealmente lo primero a codear)
+
++Queda procesar multi palabras en el input y hacer multiples queries. Ex. "Barcelona Malaga" me
+traiga todos los lodgings de ambas ciudades. De momento no matcheara con ninguna de las dos porque buscara
+matcheo total.

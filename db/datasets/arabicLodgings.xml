@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<lodgings>
+
+<lodging>
+<lodging_type>Hotel</lodging_type>
+<name>ميديترانيو</name>
+<stars>5</stars>
+<room_type>Doble con Vista</room_type>
+<apartments>NULL</apartments>
+<people>NULL</people>
+<city>موجاكار</city>
+<province>الميريا</province>
+</lodging>
+
+<lodging>
+<lodging_type>Apartamento</lodging_type>
+<name>توريس بلانكاس</name>
+<stars></stars>
+<room_type></room_type>
+<apartments>15</apartments>
+<people>6</people>
+<city>سانلوكار</city>
+<province>قادس</province>
+</lodging>
+
+</lodgings>

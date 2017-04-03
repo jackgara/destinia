@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<lodgings>
+
+<lodging>
+ <lodging_type>Hotel</lodging_type>
+ <name>синий</name>
+ <stars>3</stars>
+ <room_type>Simple</room_type>
+ <apartments>NULL</apartments>
+ <people>NULL</people>
+ <city>Барселона</city>
+ <province>Каталонии</province>
+</lodging>
+
+<lodging>
+<lodging_type>Apartamento</lodging_type>
+<name>Торрес Бланкас</name>
+<stars></stars>
+<room_type></room_type>
+<apartments>15</apartments>
+<people>6</people>
+<city>Санлукар</city>
+<province>Кадис</province>
+</lodging>
+
+</lodgings>
